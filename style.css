@@ -1,0 +1,559 @@
+.fa-fa-bars{
+    font-size: 30px;
+    font-weight: bold;
+    display: none;
+}
+*{
+    box-sizing: border-box;
+}
+.user{
+    width: 20px;
+    display: inline-block;
+}
+.msg{
+    width: 100%;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    list-style: none; 
+}
+
+.success{
+color: #3a6e3a;
+border: 1px solid #3a6e3a;
+background-color: #bcf5bc;
+}
+
+.error{
+    color: #884b4b;
+border: 1px solid #884b4b;
+background-color: #f5bcbc;
+}
+
+header .logo-text span{
+    color:red;
+}
+body, html{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: #f6f6f6;
+    font-family: 'Ropa Sans', sans-serif;
+}
+header *{
+    color: white;
+}
+h2, h3, h4, h5, h6{
+    font-family: 'Ropa Sans', sans-serif;
+    color: #444;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    background-color: #251b83;
+    height: 66px;
+}
+header .logo{
+   float: left;
+   height: inherit;
+   margin-left: 2em;
+   font-family:  'Rajdhani', sans-serif;
+}
+header .logo-text{
+    margin:  9px;
+}
+header ul{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+header ul li{
+    float: left;
+    position: relative;
+}
+.btn{
+    padding: .5rem 1rem;
+    background-color: #1d1663;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    font-size: 1.08em;
+    font-family:  'Rajdhani', sans-serif;
+}
+
+.btn-big{
+    padding: .7rem 1.3rem;
+    line-height: 1.3rem;
+}
+
+.btn:hover{
+    color: rgb(223, 35, 35) !important;
+    background: #1d1663;
+}
+header ul li a{
+    display: block;
+    padding: 21px;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+header ul li a:hover{
+    background: #1c1464;
+    transition: 0.5s;
+}
+.baixo{
+    margin-top: 4px;
+}
+header ul li ul{
+position: absolute;
+top: 66px;
+right: 0px;
+width: 180px;
+display: none;
+z-index: 88888;
+}
+header ul li:hover ul{
+    display: block;
+    }
+
+header ul li ul li{
+    width: 100%;
+}
+header ul li ul li a{
+    padding: 10px;
+    color: #444;
+    background: white;
+    text-decoration: none;
+}
+header ul li ul li a.logout{
+    color: red;
+}
+header ul li ul li a:hover {
+    background: #d6d6d6;
+}
+
+.page-wrapper{
+    min-height: 100%;
+}
+
+.page-wrapper a:hover {
+color: #251b83
+}
+
+.text-input {
+    padding: .7rem 1rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #e0e0ee;
+    color: #353535;
+    font-size: 1.5em;
+    line-height: 1.5rem;
+    font-family:  'Rajdhani', sans-serif;
+}
+
+.post-slider{
+    
+    position: relative
+}
+.post-slider .next{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    font-size: 2em;
+    color: #000000;
+    cursor: pointer;
+}
+.post-slider .prev{
+        position: absolute;
+        top: 50%;
+        left: 30px;
+        font-size: 2em;
+        color: #1d1663;
+        cursor: pointer;
+    }
+
+.post-slider .slider-title{
+    text-align: center;
+    margin: 30px auto;
+}
+.post-slider .post-wrapper{
+    
+    width: 84%;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+}
+.post-slider .post-wrapper .post{
+    display: inline-block;
+    width: 300px;
+    margin: 0px 10px;
+    height: 330px;
+   background: white;
+   border-radius: 5px;
+}
+.post-slider .post-wrapper .post .post-info{
+    height: 130px;
+    padding: 0px 5px;
+    
+}
+.post-slider .post-wrapper .post .slider-image{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
+
+}
+
+
+
+
+.content{
+    width: 90%;
+    margin: 30px auto 30px;
+    
+}
+
+.content .main-content{
+    width: 70%;
+    float: left;
+}
+
+.content .main-content.single{
+    background: white;
+    padding: 20px 50px;
+    font-size: 1.1em;
+    border-radius: 5px;
+  
+}
+.content .main-content.single .post-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content .popular .post{
+    border-top: 1px solid #e0e0e0;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.content .popular .post img{
+    height: 60px;
+    width: 75px;
+    float: left;
+    margin-right: 10px;
+}
+
+.content .sidebar {
+    width: 30%;
+    float: left;
+    height: 300px;
+}
+.content .sidebar .single{
+    padding: 0px 10px;
+}
+.content .main-content .recent-post-title{
+margin: 20px;
+margin-top: 25px;
+}
+.content .main-content .post{
+    widows: 95%;
+    height: 270px;
+    margin: 20px auto;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+}
+.content .main-content .post .read-more{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: 1px solid #251b83;
+    background: transparent;
+    border-radius: 5px;
+    color: #1d1663 !important;
+}
+
+.content .main-content .post .read-more:hover{
+    background-color: #2e229c;
+    color: white !important;
+    transition: .25s;
+}
+
+.content .main-content .post .post-preview{
+    padding: 10px;
+    width: 60%;
+    float: right;
+}
+
+.content .main-content .post .post-image{
+    width: 40%;
+height: 100%;
+float: left;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+
+.content .sidebar .section{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.content .sidebar .section .section-title{
+    margin: 10px 0px 10px 0px;
+}
+.content .sidebar .section.search{
+margin-top: 15px;
+margin-left: 20px;
+}
+.content .sidebar .section.topics{
+    margin-left: 20px;
+    }
+.content .sidebar .section.topics ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border-top: 1px solid #e0e0e0;
+    }
+    .content .sidebar .section.topics ul li a{
+        display: block;
+        padding: 15px 0px 15px 0px;
+        border-bottom: 1px solid #e0e0e0;
+        transition: all 0.3s;
+    }
+    .content .sidebar .section.topics ul li a:hover{
+        padding-left: 10px;
+        transition: all 0.3s;
+    }
+
+
+
+.auth-content{
+    widows: 30%;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+ }
+
+
+.auth-content .form-title{
+    text-align: center;
+}
+
+
+
+ .auth-content form div{
+     margin-bottom:  10px;
+ }
+
+ .auth-content form p{
+     text-align: center;
+ }
+ 
+.auth-content form p a{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+    .footer{
+        background: #303036;
+        color: white;
+        height: 400px;
+        position: relative;
+    }
+    
+
+
+    .footer .footer-content{
+        height: 350px;
+        display: flex;
+    }
+
+    .footer .footer-content .footer-section{
+        flex: 1;
+        padding: 25px;
+    }
+
+    .footer .footer-bottom{
+        background: #343a40;
+        color: #686868;
+        height: 50px;
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        bottom: 0px;
+        left: 0px;
+        padding-top: 20px;
+    }
+
+    .footer .footer-content h1,
+    .footer .footer-content h2{
+        color: white;
+    }
+
+    .footer .footer-content .about h1 span{
+        color: red;
+    }
+
+    .footer .footer-content .about .contact span{
+        display: block;
+        font-size: 1.1em;
+        margin-bottom: 8px;
+    }
+
+    .footer .footer-content .about .socials a{
+        border:  1px solid gray;
+        width: 45px;
+        height: 41px;
+        padding-top: 7px;
+        margin-right: 5px;
+        text-align: center;
+        display: inline-block;
+        font-size: 1.3em;
+        border-radius: 5px;
+        transition: all .3s;
+    }
+
+    .footer .footer-content .about .socials a:hover{
+        border: 1px solid white;
+        color: white;
+        transition: all .3s;
+    }
+
+    .footer .footer-content .links ul a{
+
+        display: block;
+        margin-bottom: 10px;
+        font-size: 1.2em;
+        transition: all .3s;
+
+    }
+    .footer .footer-content .links ul a:hover{
+        color: white;
+        margin-left: 15px;
+        transition: all .3s;
+    }
+
+    .footer .footer-content .contact-form .contact-input{
+        background-color: #272727;
+        color: #bebdbd;
+        margin-bottom: 10px;
+        line-height: 1.5rem;
+        padding: .9rem 1.4rem;
+        border: none;
+    }
+
+    .footer .footer-content .contact-form .contact-input:focus{
+    background: #1a1a1a;
+    }
+    .footer .footer-content .contact-form .contact-btn{
+        float: right;
+        color: white;
+        cursor: pointer;
+        font-size: 1.1em;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    .like-counter {
+        color: #000;
+        text-decoration: none;
+        margin-right: 5px;
+      }
+      .like-counter:hover {
+       cursor: pointer;
+      }
+      .liked {
+        font-weight: bold;
+      }
+      .comentarios {}
+.comentarios > span {}
+.nombre {}
+.nuevo {}
+textarea {}
+.boton {}
+.boton:hover {cursor:pointer;}
+.pnom {}
+.hr {}
+.eliminar {}
+.eliminar:hover {cursor:pointer;}
+.editar {}
+.editar:hover {cursor:pointer;}
+.botone {}
+.botone:hover {cursor:pointer;}
+
+
+/*MEDIA QUERIES */
+@media only screen and (max-width: 572px){
+    header{
+        position: relative;
+    }
+    header ul{
+        width: 100%;
+        background-color: #2e229c;
+        max-height: 0px;
+        overflow: hidden;
+    }
+    header ul li{
+        width: 100%
+    }
+    header ul li ul {
+        position: static;
+        display: block;
+        width: 100%;
+        }
+        header ul li ul li a{
+            padding: 10px;
+            color: white;
+            background: #2e229c;
+            text-decoration: none;
+            padding-left: 50px;
+        }
+        .showing {
+            max-height: 100em;
+        }
+        header ul li ul li a:hover{
+            background-color: #1d1663
+        }
+        header ul li ul li a.logout{
+            color: red;
+        }
+        .fa-fa-bars{
+            font-size: 30px;
+            font-weight: bold;
+            display: block;
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            font-size: 1.9em;
+            cursor: pointer;
+        }
+        header .logo{
+            margin-left: 5em;
+            font-family:  'Rajdhani', sans-serif;
+         }
+}
